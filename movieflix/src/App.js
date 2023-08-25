@@ -1,8 +1,10 @@
+import Header from "./components/Header";
+
 function App() {
   return (
     <div>
-      <h1>Hello world! </h1>
-      <p>Não esquecer de colocar tudo de um elemento pai</p>
+      <Header/>
+       <p>Olá</p>
     </div>
   );
 }
