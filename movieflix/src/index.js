@@ -1,11 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+function Header () {
+  return (
+    <Header>
+      <spam>MovieFlix</spam>
+      <nav>
+      <a href="#">Home</a>
+        <a href="#">Assista agora</a>
+      </nav>
+    </Header>
+  )
+}
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export default Header;
